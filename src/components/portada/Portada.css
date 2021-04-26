@@ -1,0 +1,54 @@
+.portada-container{
+    background:linear-gradient(90deg,rgb(16, 75, 1),rgb(112, 4, 4));
+    width:100%;
+    height:1000px;
+    margin-top:-35px;
+  
+}
+.portada-header-h1{
+    text-align:center;
+    color:rgb(244, 248, 184);
+    font-family:'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+.portada-img{
+    width:90%;
+    height: 200px;
+    border:2px solid white;
+    margin-left:5%;
+}
+.portada-container-buttons{
+    display:block;
+    margin-top: 40px;
+    height: 200px;
+    text-align: center;
+    margin-left: -59px;
+  
+}
+a{
+
+    border-radius: 9px 9px 9px 9px;
+    width:90%;
+    height: 50px;
+    margin-top:3px;
+    background-color: rgb(2, 27, 2);
+    font-weight: bolder;
+    font-size: 30px;
+    font-family:'Courier New', Courier, monospace ;
+    color:rgb(244, 248, 184);
+    text-decoration: none;
+    box-shadow: 9px 9px 19px 9px rgb(3, 10, 1);
+}
+span{
+    color:transparent;
+}
+.separador{
+    height: 65px;
+}
+a:hover{
+    background-color: rgb(65, 114, 16);
+    color:black;
+}
+:active{
+    background-color: chartreuse;
+}

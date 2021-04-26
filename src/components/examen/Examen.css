@@ -1,0 +1,88 @@
+.examen-container{
+    background:linear-gradient(90deg,rgb(16, 75, 1),rgb(112, 4, 4));
+    width:100%;
+    height:1000px;
+    margin-top:-5px;
+  
+}
+.examen-header{
+    display:flex;
+    justify-content: space-around;
+    
+}
+.examen-header-minutes{
+  color:white;
+  font-size: 30px;
+}
+.examen-header-seconds{
+  color:white;
+  font-size:30px;
+}
+.examen-container-life{
+  display:flex;
+  justify-content: center;
+}
+.examen-life{
+   color:white;
+   font-size: 30px;
+}
+.examen-image{
+    border:1px solid white;
+    width:90%;
+    height: 200px;
+    margin-left:4%;
+}
+.examen-container-buttons{
+    display:block;
+    margin-top: 60px;
+}
+.examen-buttons-h3{
+ text-align: center;
+ color:white;
+ font-size: 30px;
+}
+.examen-button{
+   width:100%;
+   height: 50px;
+   margin-top:4px;
+}
+.reptiles{
+    background-image: url('../../img/anaconda-1341077_1920.jpg');
+    background-size: cover;
+    border:1px solid white;
+    width:90%;
+    height: 200px;
+    margin-left:4%;
+}
+.geography{
+    background-image: url('../../img/river-3642456_1920.jpg');
+    background-size: cover;
+    border:1px solid white;
+    width:90%;
+    height: 200px;
+    margin-left:4%;
+}
+.birds{
+    background-image: url('../../img/macaw-1620059_1920.jpg');
+    background-size: cover;
+    border:1px solid white;
+    width:90%;
+    height: 200px;
+    margin-left:4%;
+}
+.tribes{
+    background-image: url('../../img/amazon-indians-69589_1920.jpg');
+    background-size: cover;
+    border:1px solid white;
+    width:90%;
+    height: 200px;
+    margin-left:4%;
+}
+.aquatic-animals{
+    background-image: url('../../img/piranhas-452863_1920.jpg');
+    background-size: cover;
+    border:1px solid white;
+    width:90%;
+    height: 200px;
+    margin-left:4%;
+}
