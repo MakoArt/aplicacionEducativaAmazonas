@@ -15,7 +15,11 @@ const Instrucciones = () => {
                 <h1 className="instrucciones-header-h1">INSTRUCCIONES</h1>
             </div>
                                                             
-               <p className="instrucciones-parrafo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque quia totam aut soluta eum ut repudiandae rem dolorum, provident illo inventore ea nobis mollitia suscipit fuga debitis nam eveniet architecto.</p>
+               <p className="instrucciones-parrafo">Esta aplicación tiene una finalidad educativa. Sobre distintas areas relacionadas con 
+                   conocimientos generales de todo lo referente a la selva Amazónica. En la sección entrenamiento está la teória con la cual 
+                   esta realizada la parte de examen . Este examen es tipo juego para aprender de una manera amena y divertida. Con un sistema de 
+                   puntuaciones,record y tiempo limite para responder cada pregunta.Las preguntas estan divididas en diferentes areas , geografía,
+                   tribus y fauna ,aunque luego en examen se mezclan todas aleatoriamente.Es hora de demostrar tus conocimientos.</p>
         
              <Link to='/'>VOLVER</Link>
         

@@ -1,0 +1,14 @@
+.inicio-container{
+    background:linear-gradient(90deg,rgb(16, 75, 1),rgb(112, 4, 4));
+    width:100%;
+    height:1000px;
+    margin-top:-5px;
+  
+}
+h2{
+    color:white;
+    text-align: center;
+}
+.espaciado{
+    height: 90px;
+}

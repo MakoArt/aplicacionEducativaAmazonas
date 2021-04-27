@@ -1,0 +1,17 @@
+
+.entrenamiento-container{
+ justify-content: center;
+ background:linear-gradient(90deg,rgb(16, 75, 1),rgb(112, 4, 4));
+ width:100%;
+ height:1000px;
+ margin-top:-5px;
+}
+
+
+.entrenamiento-separador{
+    height: 50px;
+}
+a{
+    margin-left: 6%;
+  
+} 

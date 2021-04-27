@@ -19,15 +19,18 @@ const Portada = () => {
          <header>
              <h1 className="portada-header-h1">AMAZONAS</h1>
          </header>
-       
+         
+         <div className="portada-container-img">
          <div className="portada-img"></div>
+         </div>
+         
          
          <div className="portada-container-buttons">
              <Link to="/instrucciones">INSTRUCCIONES</Link>
              <div className="separador"></div>
              <Link to="/entrenamiento">ENTRENAMIENTO</Link>
              <div className="separador"></div>
-             <Link to="/examen">EXAMEN<span>Term</span></Link> 
+             <Link to="/inicio">EXAMEN<span>Term</span></Link> 
          </div>                                            
                                                                                       
                                                           

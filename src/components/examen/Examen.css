@@ -1,7 +1,7 @@
 .examen-container{
     background:linear-gradient(90deg,rgb(16, 75, 1),rgb(112, 4, 4));
     width:100%;
-    height:1000px;
+    height:700px;
     margin-top:-5px;
   
 }
@@ -12,24 +12,34 @@
 }
 .examen-header-minutes{
   color:white;
-  font-size: 30px;
+  font-size: 18px;
 }
+
 .examen-header-seconds{
   color:white;
-  font-size:30px;
+  font-size:18px;
 }
 .examen-container-life{
   display:flex;
-  justify-content: center;
+  justify-content: space-around;
 }
+
 .examen-life{
    color:white;
-   font-size: 30px;
+   font-size: 18px;
 }
-.examen-image{
+.examen-points{
+    color:white;
+    font-size:18px;
+}
+.examen-record{
+    color:white;
+    font-size: 18px;
+}
+#examen-image{
     border:1px solid white;
     width:90%;
-    height: 200px;
+    height: 150px;
     margin-left:4%;
 }
 .examen-container-buttons{
@@ -39,12 +49,170 @@
 .examen-buttons-h3{
  text-align: center;
  color:white;
- font-size: 30px;
+ font-size: 15px;
+ margin-top: -30px;
 }
 .examen-button{
    width:100%;
    height: 50px;
    margin-top:4px;
+   background-color: rgb(3, 48, 3);
+   color:white;
+   font-size: 20px;
+   box-shadow: 9px 9px 9px 3px rgb(6, 17, 1);
+}
+
+@media(min-width:630px){
+    .examen-header-minutes{
+      font-size:15px;
+    }
+    .examen-header-seconds{
+      font-size:15px;
+    }
+    .examen-life{
+      font-size:15px;
+    }
+    .examen-points{
+      font-size:15px;
+    }
+    .examen-record{
+      font-size:15px;
+    }
+    .examen-button{
+     font-size: 15px;
+     height: 45px;
+    }
+    .examen-buttons-h3{
+        font-size: 15px;
+   
+    }
+    #examen-image{
+        height:180px;
+        background-position-y: -30px;
+    }
+    .birds{
+      height: 400px;
+    }
+    .reptiles{
+      height: 400px;
+    }
+    .geography{
+      height: 400px;
+    }
+    .tribes{
+    height: 400px;
+    }
+    .aquatic-animals{
+     height: 400px;
+    }
+    .examen-container{
+        height: 700px;
+    }
+  }
+  
+  @media(min-width:900px){
+    .examen-header-minutes{
+      font-size:15px;
+    }
+    .examen-header-seconds{
+      font-size:15px;
+    }
+    .examen-life{
+      font-size:15px;
+    }
+    .examen-points{
+      font-size:15px;
+    }
+    .examen-record{
+      font-size:15px;
+    }
+    .examen-button{
+     font-size: 15px;
+     height: 48px;
+    }
+    .examen-buttons-h3{
+        font-size: 15px;
+   
+    }
+    #examen-image{
+        height:180px;
+        background-position-y: -120px;
+    }
+    .birds{
+      height: 400px;
+    }
+    .reptiles{
+      height: 400px;
+    }
+    .geography{
+      height: 400px;
+    }
+    .tribes{
+    height: 400px;
+    background-position-y: -190px;
+    }
+    .aquatic-animals{
+     height: 400px;
+    }
+    .examen-container{
+        height: 680px;
+    }
+  }
+
+
+  @media(min-width:1200px){
+    .examen-header-minutes{
+      font-size:20px;
+    }
+    .examen-header-seconds{
+      font-size:20px;
+    }
+    .examen-life{
+      font-size:20px;
+    }
+    .examen-points{
+      font-size:20px;
+    }
+    .examen-record{
+      font-size:20px;
+    }
+    .examen-button{
+     font-size: 20px;
+     height: 58px;
+    }
+    .examen-buttons-h3{
+        font-size: 20px;
+   
+    }
+    #examen-image{
+        height:280px;
+        background-position-y: -100px;
+    }
+    .birds{
+      height: 400px;
+    }
+    .reptiles{
+      height: 400px;
+    }
+    .geography{
+      height: 400px;
+    }
+    .tribes{
+    height: 400px;
+    }
+    .aquatic-animals{
+     height: 400px;
+    }
+    .examen-container{
+        height: 680px;
+    }
+  }
+.examen-button:hover{
+    background-color: rgb(55, 99, 10);
+}
+.examen-button:active{
+    background-color: chartreuse;
+    color:black;
 }
 .reptiles{
     background-image: url('../../img/anaconda-1341077_1920.jpg');
