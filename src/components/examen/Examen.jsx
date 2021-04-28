@@ -4,11 +4,12 @@ import {questions} from '../db/Db.jsx'
 import {Redirect} from 'react-router-dom'
 
 const Examen = () => {
-
+      
+     let[image,setImage]=useState('')
      let[points,setPoints]=useState(0)
      let[gameOver,setGameOver]=useState(false)
      let[minutes,setMinutes]=useState(0)
-     let[random,setRandom]=useState(Math.round(Math.random()*(4-1)+1))
+     let[random,setRandom]=useState(Math.round(Math.random()*(31-1)+1))
      let[record,setRecord]=useState(localStorage.getItem('record')) 
      let[seconds,setSeconds]=useState(59)
      let[vidas,setVidas]=useState(localStorage.getItem('lifes'))
@@ -49,28 +50,29 @@ const Examen = () => {
        
         }
       
-       
+        clearInterval(timer)
      return ()=>{
-         clearInterval(timer)
+       
      }
     
     })
   
 
     const bien=()=>{
-      setRandom(Math.round(Math.random()*(4-1)+1))
+     setRandom(Math.round(Math.random()*(31-1)+1))
       setMinutes(minutes=0)
       setSeconds(seconds=59)
       setPoints(points+=1)
+    
     }
     
     
     const mal=()=>{
-      setRandom(Math.round(Math.random()*(4-1)+1))
+      setRandom(Math.round(Math.random()*(31-1)+1))
       setVidas(vidas-=1)
       setMinutes(minutes=0)
       setSeconds(seconds=59)
-      
+  
     }
  
     
@@ -146,7 +148,7 @@ const Examen = () => {
         </div>
         
         
-        <div className={questions[random].type} id="examen-image"></div>
+         <div className={questions[random].type} id="examen-image"></div> 
          
          <div className="examen-container-buttons">
              <h3 className="examen-buttons-h3">{questions[random].question}</h3>
@@ -157,6 +159,7 @@ const Examen = () => {
           {
             gameOver ?  <Redirect to='/gameover'/> : null
           }
+           
          
        
       </div>
